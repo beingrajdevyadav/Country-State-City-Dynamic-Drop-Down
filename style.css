@@ -98,3 +98,24 @@ body {
 footer {
     font-size: 14px;
 }
+
+/* =================================================  */
+@media screen and (max-width : 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .form-container{
+        width: 100%;
+    }
+
+    footer{
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+}

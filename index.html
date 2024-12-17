@@ -24,33 +24,33 @@
         <div action="">
 
             <div class="form-control">
-                <label for=""> <i class="fa-solid fa-user-tie"></i>  </label>
-                <input type="text" placeholder="Enter Your Name">
+                <label for="Name"> <i class="fa-solid fa-user-tie"></i>  </label>
+                <input type="text" id="Name" placeholder="Enter Your Name" autocomplete="off">
             </div>
             <div class="form-control">
-                <label for=""><i class="fa-solid fa-at"></i>  </label>
-                <input type="text" placeholder="Enter Your Email">
+                <label for="Email"><i class="fa-solid fa-at"></i>  </label>
+                <input type="text" id="Email" placeholder="Enter Your Email" autocomplete="off">
             </div>
             <div class="form-control">
-                <label for=""><i class="fa-solid fa-phone"></i>  </label>
-                <input type="text" placeholder="Enter Your Phone">
+                <label for="PhoneNumber"><i class="fa-solid fa-phone"></i>  </label>
+                <input type="text" id="PhoneNumber" placeholder="Enter Your Phone Number" autocomplete="off">
             </div>
 
             <div class="form-control">
-                <label for=""><i class="fa-solid fa-earth-asia"></i>  </label>
-                <select name="" id="" class="country">
+                <label for="Country"><i class="fa-solid fa-earth-asia"></i>  </label>
+                <select name="Country" id="Country" class="country"  onchange="loadStates()">
                     <option >Select Country</option>
                 </select>
             </div>
             <div class="form-control">
-                <label for=""><i class="fa-solid fa-location-crosshairs"></i>  </label>
-                <select name="" id="" class="state">
+                <label for="State"><i class="fa-solid fa-location-crosshairs"></i>  </label>
+                <select name="State" id="State" class="state" onchange="loadCities()">
                     <option >Select State</option>
                 </select>
             </div>
             <div class="form-control">
-                <label for=""><i class="fa-solid fa-house"></i> </label>
-                <select name="" id="" class="city">
+                <label for="City"><i class="fa-solid fa-house"></i> </label>
+                <select name="City" id="City" class="city">
                     <option > Select City</option>
                 </select>
             </div>
